@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,150 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.wrapper{
+  height: 92vh; 
+  
+  display: inline-block;
+  width: 80%;
+  /* padding: 30px; */
+  /* margin-top: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.divRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* height: 100%; */
+}
+.divRightAllUser {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.splitArea{
+  border-radius: 6px;
+  width: 350px;
+  height: 300px;
+  margin-bottom: 45px;
+  padding: 11px;
+  background-color: rgb(238, 208, 151);
+}
+.divRightAddFriend{
+  margin-top: 10px;
+}
+.splitHeading{
+  font-size: 20px;
+  text-align: center;
+}
+.selectButton{
+  font-size: 12px;
+  width: 53px;
+  height: 26px;
+  font-weight: bold;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+ .userName{
+  align-items: center;
+  /* padding: 10px; */
+  margin-right: 4px;
+  min-width: 194px;
+ }
+ .owesYou{
+  color:rgb(106, 160, 24);
+  font-weight: 500;
+ }
+ .youOwes{
+  color: red;
+  font-weight: 500;
+ }
+ .even{
+  font-weight: 500;
+ }
+ .name{
+  font-weight: bold;
+ }
+ .addFriendBtn{
+  width: 80px;
+  height: 26px;
+  min-height: 26px;
+  font-size: 12px;
+  border: none;
+  font-weight: bold;
+  background-color:orange ;
+  border-radius: 5px;
+  margin-left: 265px;
+ }
+
+ .divRightAddFriend{
+  border-radius: 5px;
+  height: 130px;
+  background-color:rgb(232, 207, 160); 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+ }
+ .addBoxInput{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+ }
+
+ 
+ .inputValue{
+  margin-top: 11px;
+width: 150px;
+height: 23px;
+border-radius: 5px;
+text-align: center;
+ }
+ .addFrndPara{
+font-weight: 600;
+font-size: 14px;
+ }
+ .addFriend{
+  width: 158px;
+  height: 25px;
+  margin-left: 125px;
+  border: none;
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 4px;
+ }
+ .closeBtn{
+  width: 55px;
+  height: 26px;
+  font-size: 12px;
+  border: none;
+  font-weight: bold;
+  background-color:orange ;
+  border-radius: 5px;
+  margin-left:292px;
+  margin-top:10px;
+ }
+ .splitBillBtn{
+width: 90px;
+height: 25px;
+border-radius: 5px;
+background-color: orange;
+border: none;
+margin-left: 240px;
+margin-top: 8px;
+ }
